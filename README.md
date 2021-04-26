@@ -1,7 +1,7 @@
 # Budget Tracker
   ![badge](https://img.shields.io/badge/Created_With-LOVE-pink.svg)
 
-> This is a tool to help visually organize a team.
+> This application allows a user to track their income and expenses with or without an internet connection.
 
 ## Table of contents
 * [General info](#general-info)
@@ -16,7 +16,7 @@
 * [Contact](#contact)
 
 ## General info
-General Overview
+Since internet access is not always possible, especially while traveling, this application allows the user to monitor their expenses when needed then update when the internet is accessible again.
 
 ## Screenshots
 ![Example screenshot](./img/screenshot.png)
@@ -39,9 +39,9 @@ Show examples of usage:
 ```
 
 ## Features
-* 
-* 
-* 
+* User can enter deposits offline
+* User can enter expenses offline
+* When internet connection is restored this information will update properly
 
 ## To-Do
 * 
@@ -54,7 +54,7 @@ Show examples of usage:
 This project is in progress.  As new technologies and client needs evolve, so will this application.
 
 ## Inspiration
-
+In an ever changing world involving traveling, this application allows a user to continue working even when internet access is not available.
 
 ## Licenses
 [![License: ICL](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)  
