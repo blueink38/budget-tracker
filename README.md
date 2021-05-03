@@ -19,7 +19,7 @@
 Since internet access is not always possible, especially while traveling, this application allows the user to monitor their expenses when needed then update when the internet is accessible again.
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./public/images/screenshot.png)
 
 ## Technologies
 * HTML5
@@ -35,7 +35,10 @@ Since internet access is not always possible, especially while traveling, this a
 ## Code Examples
 Show examples of usage:
 ```
-
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/budget-tracker', {
+  useFindAndModify: false,
+  useNewUrlParser: true,
+  useUnifiedTopology: true});
 ```
 
 ## Features
@@ -44,11 +47,9 @@ Show examples of usage:
 * When internet connection is restored this information will update properly
 
 ## To-Do
-* 
-* 
-*   
-
-
+* Add dates
+* Connect to personal calendar
+* Connect to personal bank account
 
 ## Status
 This project is in progress.  As new technologies and client needs evolve, so will this application.
