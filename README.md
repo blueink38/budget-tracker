@@ -26,8 +26,8 @@ Since internet access is not always possible, especially while traveling, this a
 * CSS3
 * JavaScript
 * node.js
-* Jest
-* Inquirer
+* MongoDB Atlas
+* IndexedDB
 
 ## Setup
 
